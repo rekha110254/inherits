@@ -10,9 +10,9 @@ if (typeof Object.create === 'function') {
         writable: true,
         configurable: true
       }
-    })
+    });
   };
-  };
+}
 } else {
   // old school shim for old browsers
   module.exports = function inherits(ctor, superCtor) {
